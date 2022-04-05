@@ -1,0 +1,55 @@
+dell@DESKTOP-BMF03N8 MINGW64 ~/Desktop/FunctionUp
+$ git clone hhttps://github.com/RishavBir/uranium-1.git
+Cloning into 'uranium-1'...
+fatal: protocol 'https' is not supported
+
+dell@DESKTOP-BMF03N8 MINGW64 ~/Desktop/FunctionUp
+$ git clone https://github.com/RishavBir/uranium-1.git
+Cloning into 'uranium-1'...
+fatal: protocol 'https' is not supported
+
+dell@DESKTOP-BMF03N8 MINGW64 ~/Desktop/FunctionUp
+$ git clone https://github.com/sabihak89/uranium.git
+Cloning into 'uranium'...
+remote: Enumerating objects: 620, done.
+remote: Counting objects: 100% (620/620), done.
+remote: Compressing objects: 100% (453/453), done.
+remote: Total 620 (delta 131), reused 618 (delta 131), pack-reused 0
+Receiving objects: 100% (620/620), 662.95 KiB | 1.25 MiB/s, done.
+Resolving deltas: 100% (131/131), done.
+
+dell@DESKTOP-BMF03N8 MINGW64 ~/Desktop/FunctionUp
+$ cd uranium
+
+dell@DESKTOP-BMF03N8 MINGW64 ~/Desktop/FunctionUp/uranium (main)
+$ git checkout session/nodejs-intro         					/*this is to change a branch in repo */
+Updating files: 100% (861/861), done.
+Switched to a new branch 'session/nodejs-intro'
+branch 'session/nodejs-intro' set up to track 'origin/session/nodejs-intro'.
+
+dell@DESKTOP-BMF03N8 MINGW64 ~/Desktop/FunctionUp/uranium (session/nodejs-intro)
+$ https://github.com/RishavBir/uranium-1.git
+bash: https://github.com/RishavBir/uranium-1.git: No such file or directory
+
+dell@DESKTOP-BMF03N8 MINGW64 ~/Desktop/FunctionUp/uranium (session/nodejs-intro)
+$ git push https://github.com/RishavBir/uranium-1.git
+Everything up-to-date
+
+dell@DESKTOP-BMF03N8 MINGW64 ~/Desktop/FunctionUp/uranium (session/nodejs-intro)
+$ git push https://github.com/RishavBir/Lucifer.git
+Enumerating objects: 614, done.
+Counting objects: 100% (614/614), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (450/450), done.
+Writing objects: 100% (614/614), 662.09 KiB | 50.93 MiB/s, done.
+Total 614 (delta 131), reused 614 (delta 131), pack-reused 0
+remote: Resolving deltas: 100% (131/131), done.
+remote:
+remote: Create a pull request for 'session/nodejs-intro' on GitHub by visiting:
+remote:      https://github.com/RishavBir/Lucifer/pull/new/session/nodejs-intro
+remote:
+To https://github.com/RishavBir/Lucifer.git
+ * [new branch]      session/nodejs-intro -> session/nodejs-intro
+
+dell@DESKTOP-BMF03N8 MINGW64 ~/Desktop/FunctionUp/uranium (session/nodejs-intro)
+$

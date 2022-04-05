@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Dollar To Rupee</title>
+    <style>
+        body {
+            background: linear-gradient(27deg, #ff66ff 50%, #ff9933 50%);
+            text-align: center;
+            padding-top: 150px;
+        }
+        .main_heading{
+            display: inline-block;
+            position: absolute;
+            z-index: 1;
+            font-size: 33px;
+            margin-left: -208px;
+            margin-top: -34px;
+            font-style: italic;
+            font-weight: bold;
+            text-decoration: underline;
+            background-image: linear-gradient(#00f7ff, #66ff00);
+            padding: 10px 15px;
+            border-radius: 25px;
+            color: rgb(120, 156, 53);
+            color: #ffffff;
+        }
+        .main {
+            display: flex;
+            justify-content: center;
+        }
+        .containner {
+            width: 500px;
+            height: 400px;
+            background: linear-gradient(to top left, #ebebeb 0%, #333333 100%);
+            display: inline-block;
+            box-shadow: 0px 0px 8px 4px #000000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+        .sub_containner{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: -33px; 
+        }
+        input {
+            padding: 10px 0px;
+            border-radius: 20px;
+            border: none;
+            text-align: center;
+        }
+        .text {
+            color: white;
+            font-size: 26px;
+            font-weight: bold;
+        }
+        .btn {
+            padding: 10px 60px;
+            margin-left: 84px;
+            border-radius: 20px;
+            border: none;
+            background-image: linear-gradient(180deg, rgb(0, 255, 34), rgb(70, 70, 70));
+            color: #ffffff;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        .btn:hover {
+            transform: scale(1.1);
+        }
+
+        .btn1{}
+        .btn2 {
+            margin-top: 20px;
+            
+            background-image: linear-gradient(180deg, rgb(255, 0, 0), rgb(70, 70, 70));
+        }
+    </style>
+</head>
+<body>
+    <span class="main_heading">Dollar To Rupee Conversion</span>
+    <div class="main">
+        <div class="containner">
+            <div class="sub_containner">
+                <form>
+                    <label for="dollar" class="text">Dollar:-</label>
+                    <input type="number" name="dollar" placeholder="Enter Dollar" autofocus><br><br>
+                    <input class="btn btn1" type="button" value="Convert" onclick="myFunction(this.form)"><br><br>
+                    <label for="dollar" class="text">Rupee:-</label>
+                    <input type="number" name="rupee"placeholder="Rupee is"><br>
+                    <input class="btn btn2" type="reset" value="Reset">
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script type="text/javascript">
+    function myFunction(myForm) {
+        var dlr = myForm.dollar.value;
+        var rps = dlr * 75;
+         myForm.rupee.value = rps;
+    }
+</script>
+
+</html>

@@ -1,0 +1,82 @@
+dell@DESKTOP-BMF03N8 MINGW64 ~
+$ pwd
+/c/Users/dell
+
+dell@DESKTOP-BMF03N8 MINGW64 ~
+$ mkdir assignment
+
+dell@DESKTOP-BMF03N8 MINGW64 ~
+$ cd assignment
+
+dell@DESKTOP-BMF03N8 MINGW64 ~/assignment
+$ mkdir source
+
+dell@DESKTOP-BMF03N8 MINGW64 ~/assignment
+$ mkdir destination
+
+dell@DESKTOP-BMF03N8 MINGW64 ~/assignment
+$ ls
+destination/  source/
+
+dell@DESKTOP-BMF03N8 MINGW64 ~/assignment
+$ cd source
+
+dell@DESKTOP-BMF03N8 MINGW64 ~/assignment/source
+$ touch www.txt
+
+dell@DESKTOP-BMF03N8 MINGW64 ~/assignment/source
+$ ls
+www.txt
+
+dell@DESKTOP-BMF03N8 MINGW64 ~/assignment/source
+$ cat >> www.txt Welcome to Coding family.
+cat: Welcome: No such file or directory
+cat: to: No such file or directory
+cat: Coding: No such file or directory
+cat: family.: No such file or directory
+
+dell@DESKTOP-BMF03N8 MINGW64 ~/assignment/source
+$ cp www.txt ../destination
+
+dell@DESKTOP-BMF03N8 MINGW64 ~/assignment/source
+$ cd ..
+
+dell@DESKTOP-BMF03N8 MINGW64 ~/assignment
+$ cd source
+
+dell@DESKTOP-BMF03N8 MINGW64 ~/assignment/source
+$ cd ..
+
+dell@DESKTOP-BMF03N8 MINGW64 ~/assignment
+$ cd destination
+
+dell@DESKTOP-BMF03N8 MINGW64 ~/assignment/destination
+$ ls
+www.txt
+
+dell@DESKTOP-BMF03N8 MINGW64 ~/assignment/destination
+$ rm www.txt
+
+dell@DESKTOP-BMF03N8 MINGW64 ~/assignment/destination
+$ ls
+
+dell@DESKTOP-BMF03N8 MINGW64 ~/assignment/destination
+$ cd ..
+
+dell@DESKTOP-BMF03N8 MINGW64 ~/assignment
+$ cd source
+
+dell@DESKTOP-BMF03N8 MINGW64 ~/assignment/source
+$ mv www.txt
+mv: missing destination file operand after 'www.txt'
+Try 'mv --help' for more information.
+
+dell@DESKTOP-BMF03N8 MINGW64 ~/assignment/source
+$ ls
+www.txt
+
+dell@DESKTOP-BMF03N8 MINGW64 ~/assignment/source
+$ cd ..
+
+dell@DESKTOP-BMF03N8 MINGW64 ~/assignment
+$ cd destination
